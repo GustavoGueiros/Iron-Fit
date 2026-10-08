@@ -1,7 +1,7 @@
 <?php
 // Abre a conexão MySQL e garante as tabelas necessárias ao sistema de treinos.
 
- $conn = new mysqli("sql306.infinityfree.com", "if0_42679061", "3szvIJV67iEvDX", "if0_42679061_academia");
+
 // Configuração local usada pelo Laragon.
 /* $conn = new mysqli("localhost", "root", "", "academia"); */
 
