@@ -3,7 +3,7 @@
 
 
 // Configuração local usada pelo Laragon.
-/* $conn = new mysqli("localhost", "root", "", "academia"); */
+ $conn = new mysqli("localhost", "root", "", "academia");
 
 
 
