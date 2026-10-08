@@ -1,0 +1,76 @@
+/* Configurações da página inteira */
+body{
+    background: #111;      /* Cor de fundo (preto escuro) */
+    color: #fff;           /* Cor padrão do texto (branco) */
+    margin: 0;             /* Remove a margem padrão do navegador */
+}
+
+/* Faz o container ocupar toda a altura da tela */
+.vh-100{
+    height: 100vh;         /* 100% da altura da janela do navegador */
+}
+
+/* Coluna da esquerda (logo) */
+.logo{
+    border-right: 2px solid #C22513;   /* Linha vermelha separando as duas colunas */
+}
+
+/* Título "Iron Fit" */
+.logo h1{
+    font-size: 5rem;       /* Tamanho grande da fonte */
+}
+
+/* Slogan "SUPERE SEUS LIMITES" */
+.logo p{
+    letter-spacing: 5px;   /* Espaçamento entre as letras */
+}
+
+/* Caixa do formulário de login */
+.login{
+    margin-top: 0;         /* Remove qualquer espaço acima do formulário */
+    width: 450px;          /* Largura da caixa de login */
+}
+
+/* Campos de texto (E-mail e Senha) */
+.form-control{
+    background: #222;      /* Fundo cinza escuro */
+    border: 1px solid #444;/* Borda cinza */
+    color: #ffffff;           /* Texto branco */
+}
+
+.form-control::placeholder,
+input::placeholder {
+    color: #d7d7d7 !important;
+    opacity: 0.8;
+}
+
+/* Quando o usuário clica no campo */
+.form-control:focus{
+    background: #222;      /* Mantém a mesma cor de fundo */
+    color: #ffffff;           /* Mantém o texto branco */
+    border-color: #C22513;     /* Borda fica vermelha */
+    box-shadow: none;      /* Remove o brilho azul padrão do Bootstrap */
+}
+
+/* Botão Entrar */
+.btn-danger{
+    background: #C22513;       /* Fundo vermelho */
+    border: none;          /* Remove a borda */
+}
+
+/* Quando passa o mouse no botão Entrar */
+.btn-danger:hover{
+    background: darkred;   /* Vermelho mais escuro */
+}
+
+/* Botão Criar Conta */
+.btn-outline-danger{
+    border: 1px solid #C22513; /* Borda vermelha */
+    color: #C22513;            /* Texto vermelho */
+}
+
+/* Quando passa o mouse no botão Criar Conta */
+.btn-outline-danger:hover{
+    background: #C22513;       /* Fundo vermelho */
+    color: #ffffff;          /* Texto branco */
+}
